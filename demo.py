@@ -93,7 +93,7 @@ def visualize(image_path, result, font_path="resources/fonts/FZYTK.TTF"):
 if __name__ == '__main__':
     rapid_ocr = RapidOCR()
     
-    inp_dir = "/home/jk/Pictures/store_names/"
+    inp_dir = "/home/jk/Pictures/"
     types = (inp_dir+'*.jpg', inp_dir+'*.jpeg', inp_dir+'*.png') # the tuple of file types
     files_grabbed = []
 
