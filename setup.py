@@ -63,5 +63,5 @@ setuptools.setup(
     entry_points={
         'console_scripts': [f'{MODULE_NAME}={MODULE_NAME}.rapid_ocr_api:main'],
     },
-    download_url="https://github.com/jaggiK/RapidOCR/archive/refs/tags/1.0.0.tar.gz",
+    download_url="https://github.com/jaggiK/rapidocr_openvino_gpu/archive/refs/tags/1.0.0.tar.gz",
 )
