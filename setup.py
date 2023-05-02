@@ -61,7 +61,7 @@ setuptools.setup(
     ],
     python_requires='>=3.6,<=3.10',
     entry_points={
-        'console_scripts': [f'{MODULE_NAME}={MODULE_NAME}.rapid_ocr_api:main'],
+        'console_scripts': [f'{MODULE_NAME}={MODULE_NAME}.rapid_ocr_api'],
     },
     download_url="https://github.com/jaggiK/rapidocr_openvino_gpu/archive/refs/tags/1.0.0.tar.gz",
 )
