@@ -21,7 +21,7 @@ MODULE_NAME = 'rapidocr_openvino_gpu'
 
 obtainer = GetPyPiLatestVersion()
 latest_version = obtainer(MODULE_NAME)
-VERSION_NUM = "1.0.4"#obtainer.version_add_one(latest_version)
+VERSION_NUM = "1.0.5"#obtainer.version_add_one(latest_version)
 
 # 优先提取commit message中的语义化版本号，如无，则自动加1
 if len(sys.argv) > 2:
@@ -61,7 +61,7 @@ setuptools.setup(
     ],
     python_requires='>=3.6,<=3.10',
     entry_points={
-        'console_scripts': [f'{MODULE_NAME}={MODULE_NAME}.rapid_ocr_api'],
+        'console_scripts': [f'{MODULE_NAME}={MODULE_NAME}.rapid_ocr_api.main'],
     },
-    download_url="https://github.com/jaggiK/rapidocr_openvino_gpu/archive/refs/tags/1.0.4.tar.gz",
+    download_url="https://github.com/jaggiK/rapidocr_openvino_gpu/archive/refs/tags/1.0.5.tar.gz",
 )
